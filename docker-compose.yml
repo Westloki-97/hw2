@@ -1,0 +1,9 @@
+services:
+  chatapp:
+    image: 'schwila/hw2:latest'
+    environment: 
+      - "PORT:3700"
+    ports:
+      - "80:3700"
+    volumes:
+      - ./:/app
