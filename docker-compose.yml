@@ -1,6 +1,6 @@
 services:
   chatapp:
-    image: 'schwila/hw2:latest'
+    image: 'schwila/hw2:tagname'
     environment: 
       - "PORT:3700"
     ports:
